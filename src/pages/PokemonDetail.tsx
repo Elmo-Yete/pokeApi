@@ -9,7 +9,7 @@ export default function PokemonDetail() {
       .then((res) => res.json())
       .then((res) => setPokemon(res));
   }, [name]);
-
+  console.log(pokemon);
   return (
     <section className="flex flex-col">
       <figure className="flex w-fit justify-center">
