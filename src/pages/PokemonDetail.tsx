@@ -21,15 +21,15 @@ export default function PokemonDetail() {
       </figure>
       <div>
         <h1 className="font-bold text-2xl ms-10"> {name} </h1>
-        <p className="ms-9 w-fit px-2 text-center rounded-lg font-semibold text-lg">
-          {" - "}
-          {pokemon?.types[0]?.type?.name} {" - "}
+        {/* <p className="ms-9 w-fit px-2 text-center rounded-lg font-semibold text-lg">
+          
+          {pokemon?.types[0]?.type?.name} 
         </p>
         <p className="ms-9 w-fit px-2 text-center rounded-lg font-semibold text-lg">
           {" - "}
           {pokemon?.types[1]?.type?.name}
           {" - "}
-        </p>
+        </p> */}
       </div>
     </section>
   );
